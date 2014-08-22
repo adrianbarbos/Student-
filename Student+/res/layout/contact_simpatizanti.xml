@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF" >
+
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#071216" >
+
+        <LinearLayout
+            android:id="@+id/back"
+            android:layout_width="39dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="14dp"
+                android:contentDescription="@null"
+                android:src="@drawable/back_icon" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@null"
+            android:src="@drawable/actionbar_logo" />
+    </RelativeLayout>
+    
+    
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="10dp">
+            
+            <Button 
+                android:id="@+id/sms"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/sms"
+                android:textAlignment="center"
+                android:textColor="#071216"
+                android:padding="5dp"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:background="@drawable/buttons"
+                android:textStyle="bold" 
+                android:layout_marginRight="5dp"/>
+            
+            <Button 
+                android:id="@+id/email"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/email"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="#071216"
+                android:textSize="15sp"
+                android:padding="5dp"
+                android:background="@drawable/buttons"
+                android:textStyle="bold" 
+                android:layout_marginLeft="5dp"/>
+            
+        </LinearLayout>
+        
+        <CheckBox 
+            android:id="@+id/select_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#071216"
+            android:textStyle="bold"
+            android:text="@string/select_all"
+            android:layout_marginLeft="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp" >
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:dividerHeight="1dp"
+            android:footerDividersEnabled="true"
+            android:layout_weight="2" />
+    </LinearLayout>
+
+</LinearLayout>

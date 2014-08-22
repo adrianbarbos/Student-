@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="#FFFFFF"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/registerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+       <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#071216" >
+
+        <LinearLayout
+            android:id="@+id/back"
+            android:layout_width="39dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true" 
+            android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="14dp"
+            android:contentDescription="@null"
+            android:src="@drawable/back_icon" />
+
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@null"
+            android:src="@drawable/actionbar_logo" />
+    </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="20dp" >
+
+            <!-- healine Label -->
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Title"
+                android:textColor="#d3d3d4"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <!-- Input headline -->
+
+            <EditText
+                android:id="@+id/inputHeadline"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttons"
+                android:ems="10"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:paddingBottom="6dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="6dp"
+                android:textColor="#4b5262"
+                android:textColorHint="#d3d3d4"
+                android:textSize="20sp" />
+
+            <!-- Price Label -->
+
+
+            <!-- Input Price -->
+
+
+            <!-- Description Label -->
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Content"
+                android:textColor="#d3d3d4"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <!-- Input description -->
+
+            <EditText
+                android:id="@+id/inputDesc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttons"
+                android:ems="10"
+                android:imeOptions="actionNext"
+                android:inputType="textMultiLine"
+                android:minLines="6"
+                android:paddingBottom="6dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="6dp"
+                android:textColor="#4b5262"
+                android:textColorHint="#d3d3d4"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <!-- Button Create Product -->
+
+                <Button
+                    android:id="@+id/btnSave"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/buttons"
+                    android:text="Submit"
+                    android:textColor="#4b5262"
+                    android:textSize="20sp" />
+
+                <!-- Button Create Product -->
+
+                <Button
+                    android:id="@+id/btnDelete"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/buttons"
+                    android:text="Delete"
+                    android:textColor="#4b5262"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

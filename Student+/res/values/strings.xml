@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Student+</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- Login Screen -->
+    
+    <string name="title_login">Login</string>
+    <string name="email_login">Email</string>
+    <string name="password">Password</string>
+    <string name="login_button">LOGIN</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="send_btn">Send</string>
+    <string name="skip_btn">SKIP</string>
+    <string name="adresa">Address</string>
+    
+    <string-array name="university_list">
+        <item></item>
+        <item>CUNBM</item>
+        <item>Vasile Goldis</item>
+        <item>Spiru Haret</item>
+        <item>Bogdan Voda</item>
+    </string-array>
+    <string-array name="college_list">
+        <item></item>
+        <item>Stiinte</item>
+        <item>Litere</item>
+        <item>Inginerie</item>
+        <item>Resurse minerale si Mediu</item>
+    </string-array>
+    <string-array name="department_list">
+        <item></item>
+        <item>Informatica</item>
+        <item>Info-Economica</item>
+        <item>IPA</item>
+    </string-array>
+    
+    <string-array name="statut_array">
+        <item></item>
+        <item>Membru Birou</item>
+        <item>Presedinte</item>
+    </string-array>
+    
+    
+    <string name="error_config">Please set the %1$s constant and recompile the app.</string>
+    <string name="already_registered">Device is already registered on server.</string>
+    <string name="gcm_registered">GCM: device successfully registered!</string>
+    <string name="gcm_unregistered">GCM: device successfully unregistered!</string>
+    <string name="gcm_message">GCM: you got message!</string>
+    <string name="gcm_error">GCM: error (%1$s).</string>
+    <string name="gcm_recoverable_error">GCM: recoverable error (%1$s).</string>
+    <string name="gcm_deleted">GCM: server deleted %1$d pending messages!</string>
+    <string name="server_registering">Trying (attempt %1$d/%2$d) to register device on Demo Server.</string>
+    <string name="server_registered">Demo Server: successfully added device!</string>
+    <string name="server_unregistered">Demo Server: successfully removed device!</string>
+    <string name="server_register_error">Could not register device on Demo Server after %1$d attempts.</string>
+    <string name="server_unregister_error">Could not unregister device on Demo Server (%1$s).</string>
+    <string name="options_register">Register</string>
+    <string name="options_unregister">Unregister</string>
+    <string name="options_clear">Clear</string>
+    <string name="options_exit">Exit</string>
+    
+    
+    <string-array name="months">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+    
+      <string-array name="studii">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    
+      
+      <string-array name="university">
+        <item>CUNBM</item>
+        <item>Spiru Haret</item>
+        <item>Vasile Goldis</item>
+        <item>Bogdan Voda</item>
+    </string-array>
+    
+      <string-array name="localitati_maramures">
+<item>Ardusat</item>
+<item>Arduzel</item>
+<item>Arieșu de Câmp</item>
+<item>Arieșu de Pădure</item>
+<item>Ariniș</item>
+<item>Aspra</item>
+<item>Asuaju de Jos</item>
+<item>Asuaju de Sus</item>
+<item>Baba</item>
+<item>Baia Mare</item>
+<item>Baia Sprie</item>
+<item>Băile Borșa</item>
+<item>Băița</item>
+<item>Băița de sub Codru</item>
+<item>Băiuț</item>
+<item>Băsești</item>
+<item>Bârgău</item>
+<item>Bârsana</item>
+<item>Berbești</item>
+<item>Berchez</item>
+<item>Berchezoaia</item>
+<item>Berința</item>
+<item>Bicaz</item>
+<item>Bistra</item>
+<item>Blidari</item>
+<item>Bocicoel</item>
+<item>Bocicoiu Mare</item>
+<item>Bogdan Vodă</item>
+<item>Boiereni</item>
+<item>Boiu Mare</item>
+<item>Bontăieni</item>
+<item>Borcut</item>
+<item>Borșa</item>
+<item>Botiza</item>
+<item>Bozânta Mare</item>
+<item>Bozânta Mică</item>
+<item>Breb</item>
+<item>Brebeni</item>
+<item>Buciumi</item>
+<item>Budești</item>
+<item>Bușag</item>
+<item>Buteasa</item>
+<item>Buzești</item>
+<item>Cavnic</item>
+<item>Călinești</item>
+<item>Cărbunari</item>
+<item>Cărpiniș</item>
+<item>Cătălina</item>
+<item>Câmpulung la Tisa</item>
+<item>Cernești</item>
+<item>Cetățele</item>
+<item>Chechiș</item>
+<item>Chelința</item>
+<item>Chiuzbaia</item>
+<item>Cicârlău</item>
+<item>Ciocotiș</item>
+<item>Ciolt</item>
+<item>Ciuta</item>
+<item>Coaș</item>
+<item>Codru Butesii</item>
+<item>Coltău</item>
+<item>Colțirea</item>
+<item>Copalnic</item>
+<item>Copalnic-Deal</item>
+<item>Copalnic-Mănăștur</item>
+<item>Cornești</item>
+<item>Corni</item>
+<item>Coroieni</item>
+<item>Coruia</item>
+<item>Costeni</item>
+<item>Coștiui</item>
+<item>Crasna Vișeului</item>
+<item>Crăciunești</item>
+<item>Cufoaia</item>
+<item>Culcea</item>
+<item>Cupșeni</item>
+<item>Curtuiușu Mare</item>
+<item>Curtuiușu Mic</item>
+<item>Dămăcușeni</item>
+<item>Dănești</item>
+<item>Dăneștii Chioarului</item>
+<item>Dealu Corbului</item>
+<item>Dealu Mare</item>
+<item>Desești</item>
+<item>Dobricu Lăpușului</item>
+<item>Dragomirești</item>
+<item>Drăghia</item>
+<item>Dumbrava</item>
+<item>Dumbrăvița</item>
+<item>Durușa</item>
+<item>Fărcașa</item>
+<item>Făurești</item>
+<item>Fânațe</item>
+<item>Fântânele</item>
+<item>Ferești</item>
+<item>Fericea</item>
+<item>Fersig</item>
+<item>Finteușu Mare</item>
+<item>Finteușu Mic</item>
+<item>Firiza</item>
+<item>Frâncenii Boiului</item>
+<item>Gârdani</item>
+<item>Giulești</item>
+<item>Glod</item>
+<item>Groape</item>
+<item>Groși</item>
+<item>Groșii Țibleșului</item>
+<item>Handalu Ilbei</item>
+<item>Hărnicești</item>
+<item>Hideaga</item>
+<item>Hoteni</item>
+<item>Hovrila</item>
+<item>Iadăra</item>
+<item>Iapa</item>
+<item>Ieud</item>
+<item>Ilba</item>
+<item>Inău</item>
+<item>Izvoarele</item>
+<item>Întrerâuri</item>
+<item>Jugăstreni</item>
+<item>Larga</item>
+<item>Lazu Baciului</item>
+<item>Lăpuș</item>
+<item>Lăpușel</item>
+<item>Lăschia</item>
+<item>Leordina</item>
+<item>Libotin</item>
+<item>Lucăcești</item>
+<item>Lunca la Tisa</item>
+<item>Mara</item>
+<item>Măgureni</item>
+<item>Mănăstirea</item>
+<item>Mânău</item>
+<item>Merișor</item>
+<item>Mesteacăn</item>
+<item>Mireșu Mare</item>
+<item>Mocira</item>
+<item>Mogoșești</item>
+<item>Moisei</item>
+<item>Nănești</item>
+<item>Negreia</item>
+<item>Nistru</item>
+<item>Oarța de Jos</item>
+<item>Oarța de Sus</item>
+<item>Ocna Șugatag</item>
+<item>Ocoliș</item>
+<item>Odești</item>
+<item>Oncești</item>
+<item>Orțița</item>
+<item>Peteritea</item>
+<item>Petrova</item>
+<item>Piatra</item>
+<item>Plopiș</item>
+<item>Poiana Botizii</item>
+<item>Poienile Izei</item>
+<item>Poienile de sub Munte</item>
+<item>Posta</item>
+<item>Preluca Nouă</item>
+<item>Preluca Veche</item>
+<item>Pribilești</item>
+<item>Prislop</item>
+<item>Răzoare</item>
+<item>Recea</item>
+<item>Remecioara</item>
+<item>Remetea Chioarului</item>
+<item>Remeți</item>
+<item>Remeți pe Someș</item>
+<item>Repedea</item>
+<item>Rodina</item>
+<item>Rogoz</item>
+<item>Rohia</item>
+<item>Românești</item>
+<item>Rona de Jos</item>
+<item>Rona de Sus</item>
+<item>Rozavlea</item>
+<item>Rus</item>
+<item>Ruscova</item>
+<item>Rușor</item>
+<item>Sarasău</item>
+<item>Sat-Șugatag</item>
+<item>Satu Nou de Jos</item>
+<item>Satu Nou de Sus</item>
+<item>Satulung</item>
+<item>Săbișa</item>
+<item>Săcălășeni</item>
+<item>Săcel</item>
+<item>Săliște</item>
+<item>Săliștea de Sus</item>
+<item>Sălnița</item>
+<item>Sălsig</item>
+<item>Săpânța</item>
+<item>Săsar</item>
+<item>Sârbi (Budești)</item>
+<item>Sârbi (Fărcașa)</item>
+<item>Seini</item>
+<item>Sighetu Marmației</item>
+<item>Slătioara</item>
+<item>Someș-Uileac</item>
+<item>Stejera</item>
+<item>Stoiceni</item>
+<item>Strâmbu-Băiuț</item>
+<item>Strâmtura</item>
+<item>Stremț</item>
+<item>Suciu de Jos</item>
+<item>Suciu de Sus</item>
+<item>Șieu</item>
+<item>Șindrești</item>
+<item>Șișești</item>
+<item>Șomcuta Mare</item>
+<item>Șugău</item>
+<item>Șurdești</item>
+<item>Tămaia</item>
+<item>Tămășești</item>
+<item>Tăuții-Măgherăuș</item>
+<item>Tăuții de Sus</item>
+<item>Târgu Lăpuș</item>
+<item>Teceu Mic</item>
+<item>Tisa</item>
+<item>Tohat</item>
+<item>Trestia</item>
+<item>Tulghieș</item>
+<item>Țicău</item>
+<item>Ulmeni</item>
+<item>Ulmoasa</item>
+<item>Unguraș</item>
+<item>Ungureni</item>
+<item>Urmeniș</item>
+<item>Vad</item>
+<item>Vadu Izei</item>
+<item>Valea Chioarului</item>
+<item>Valea Cufundoasă</item>
+<item>Valea Hotarului</item>
+<item>Valea Neagră</item>
+<item>Valea Stejarului</item>
+<item>Valea Vișeului</item>
+<item>Văleni</item>
+<item>Vălenii Lăpușului</item>
+<item>Vălenii Șomcutei</item>
+<item>Vărai</item>
+<item>Vicea</item>
+<item>Viile Apei</item>
+<item>Vima Mare</item>
+<item>Vima Mică</item>
+<item>Vișeu de Jos</item>
+<item>Vișeu de Mijloc</item>
+<item>Vișeu de Sus</item>
+</string-array>
+    
+    <!-- Member Profile -->
+    
+    <string name="info_member">USER INFORMATION</string>
+    <string name="university">UNIVERSITY</string>
+    <string name="college">COLLEGE</string>
+    <string name="department">DEPARTMENT</string>
+    <string name="email">EMAIL</string>
+    <string name="phone">PHONE</string>
+    <string name="adress">ADDRESS</string>
+    <string name="birthday">BIRTHDAY</string>
+    <string name="sms">SMS</string>
+    <string name="select_all">Select all</string>
+
+</resources>
